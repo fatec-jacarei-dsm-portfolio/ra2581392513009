@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    min-height: 100vh;          
+}
+
+.retangulo {
+    margin: 5px;
+    background-color: white;
+    width: 60%;
+    padding: 0px 30px;
+    border: 2px blue solid;
+    box-shadow: 8px 8px 0px blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-texto{
+    width: 40%;
+    margin: 25px;
+    text-align: left;
+} 
+
+.conteudo-texto p {
+    font-size: 1em;
+}
+
+.conteudo-img {
+    width: 50%;
+    margin: 25px;
+}
+
+.conteudo-img img {
+    width: 100%;           
+    height: auto;          
+    max-width: 400px;      
+}
+
+@media (max-width: 1000px) {
+    .retangulo {
+        flex-direction: column;   
+        align-items: center;    
+    }
+
+    .conteudo-texto, .conteudo-img {
+        width: 80%; 
+        margin-right: 0; 
+    }
+
+    .conteudo-img img {
+        max-width: 100%;  
+    }
+}
