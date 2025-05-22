@@ -17,15 +17,8 @@
   .social-links {
     margin-bottom: 10px;
   }
-  
+    
   .social-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1em;
-  }
-
-    .social-links a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
@@ -33,13 +26,13 @@
   }
   
   footer p {
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 10px 0;
   }
   
 @media (max-width: 768px) {
     footer p {
-      font-size: 1em;
+      font-size: 0.9em;
     }
   }
   

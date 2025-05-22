@@ -23,7 +23,7 @@ function Footer() {
                         <FaLinkedin />
                     </a>
                 </div>
-                <p>&copy; 2024 Laura Gabriel. Todos os direitos reservados.</p>
+                <p>&copy; 2025 Laura Gabriel. Todos os direitos reservados.</p>
             </div>
         </footer>
     );

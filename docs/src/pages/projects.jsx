@@ -4,11 +4,11 @@ import Select from 'react-select';
 
 const projects = [
   {
-    id: 13,
+    id: 1,
     name: "Iniciação Tecnológica (INPE)",
     image: require('../assets/projetoX.png'),
-    description: "Iniciação Tecnológica no Instituto Nacional de Pesquisas Espaciais (INPE) com a temática Aplicação de Técnicas de Inteligência Artificial à resolução de problemas de processamento de imagens em Sensoriamento Remoto visando auxiliar o Programa Queimadas.",
-    contributions: "Desenvolvi um classificador KNN (K-Nearest Neighbors) aprimorado com o NDVI, incorporando métodos para calcular a distância entre dois vetores, realizar classificações por meio de votação entre os três padrões mais próximos usando KNN e gerar uma imagem que diferencia áreas de vegetação(representadas em branco) de áreas de queimada(em preto). Além do sistema, também desenvolvi um relatório sobre toda a pesquisa e seus resultados.",
+    description: "Realizei uma pesquisa aplicada ao uso de técnicas de Inteligência Artificial no processamento de imagens de satélite, com foco na detecção de incêndios florestais no Programa Queimadas. Criei ferramentas de software que automatizavam tarefas manuais suscetíveis a erro, visando acelerar e tornar mais precisa a classificação de áreas queimadas. A solução contribuiu para reduzir a carga de trabalho humano e aumentar a confiabilidade das análises. A experiência fortaleceu minha autonomia técnica, pensamento analítico e habilidades de resolução de problemas. Apesquisa foi avaliada como “Muito Bom”, com nota final 9,14.",
+    contributions: "Desenvolvi um classificador com a inteligência artificial KNN (K-Nearest Neighbors) aprimorado com o NDVI (Indice de Vegetação), incorporando métodos para calcular a distância entre dois vetores, realizar classificações por meio de votação usando KNN e gerar uma imagem que diferencia áreas de vegetação(representadas em branco) de áreas de queimada(em preto). Além do sistema, também desenvolvi um relatório sobre toda a pesquisa e seus resultados.",
     hardSkills: "TypeScript, JavaScript, Python, K-Nearest-Neighbors, NDVI, NodeJS",
     softSkills: "Autonomia",
     repository: "http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2024/08.13.14.55/doc/thisInformationItemHomePage.html",
@@ -17,7 +17,7 @@ const projects = [
     demoImages: [require('../assets/queimada1.png'), require('../assets/queimada2.png'), require('../assets/queimada3.png')] 
   },
   {
-    id: 1,
+    id: 2,
     name: "UNES",
     image: require('../assets/projetoI.png'),
     description: "Um site educacional com recursos interativos desenvolvido por mim para a aula de Desenvolvimento Web I.",
@@ -29,7 +29,7 @@ const projects = [
     technologies: ["HTML", "CSS", "MySQL", "Docker", "Flask", "Python"]
   },
   {
-    id: 2,
+    id: 3,
     name: "Portfólio Design Digital",
     image: require('../assets/projetoII.png'),
     description: "Uma coleção pessoal de trabalhos desenvolvida por mim para a aula de Design Digital.",
@@ -41,7 +41,7 @@ const projects = [
     technologies: ["Figma", "HTML", "CSS", "JavaScript", "Python", "Flask", "Vercel"]
   },
   {
-    id: 3,
+    id: 4,
     name: "Projeto Integrador 1° Semestre",
     image: require('../assets/projetoIII.png'),
     description: "Um site desenvolvido pela minha equipe sobre Covid Longa no qual participei do time de desenvolvimento.",
@@ -53,7 +53,7 @@ const projects = [
     technologies: ["Figma", "HTML", "CSS", "JavaScript", "ChartJS", "Python", "Flask", "MySQL", "Excel"]
   },
   {
-    id: 4,
+    id: 5,
     name: "Gerenciador de Músicas",
     image: require('../assets/projetoVI.png'),
     description: "Um CRUD desenvolvido por mim para aula de Desenvolvimento Web II.",
@@ -65,7 +65,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "NodeJS", "Express", "MySQL"]
   },
   {
-    id: 5,
+    id: 6,
     name: "World Beauty",
     image: require('../assets/projetoV.png'),
     description: "Um site destinado à uma empresa fictícia World Beauty desenvolvido por mim e por uma colega para a aula de Tecnicas de Programação I.",
@@ -77,7 +77,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "MySQL", "NodeJS", "TypeScript", "React"]
   },
   {
-    id: 6,
+    id: 7,
     name: "Projeto Integrador 2° Semestre",
     image: require('../assets/projetoIV.png'),
     description: "Um site de Gerenciamento de Chamadas desenvolvido pela minha equipe no qual participei do time de desenvolvimento.",
@@ -89,7 +89,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "TypeScript", "TypeORM", "MySQL", "Excel", "React", "NodeJS"]
   },
   {
-    id: 7,
+    id: 8,
     name: "Chatbot Sorveteria",
     image: require('../assets/projetoVIII.png'),
     description: "Um chatbot que simula a realização de compras em uma sorveteria desenvolvido em dupla para a disciplina de Interação Humano Computador.",
@@ -101,7 +101,7 @@ const projects = [
     technologies: ["Telegram Bot", "Jupyter Notebook", "Python", "Colab"]
   },
   {
-    id: 8,
+    id: 9,
     name: "Projeto Integrador 3° Semestre",
     image: require('../assets/projetoVII.png'),
     description: "Um site desenvolvido pela minha equipe sobre um sistema de Gerenciamento de Ativos para a empresa YouTan no qual participei do time de desenvolvimento.",
@@ -113,7 +113,7 @@ const projects = [
     technologies: ["Figma", "HTML", "CSS", "JavaScript", "Java", "React", "NodeJS", "MySQL"]
   },
   {
-    id: 9,
+    id: 10,
     name: "Mercado Livre NoSQL",
     image: require('../assets/projetoXI.png'),
     description: "Criação de 4 bancos de dados para a disciplina de Banco de Dados Não Relacional.",
@@ -125,7 +125,7 @@ const projects = [
     technologies: ["Vertabelo", "MongoDB", "Redis", "Cassandra", "Neo4j"]
   },
   {
-    id: 10,
+    id: 11,
     name: "Aplicativo Sweet & Sour",
     image: require('../assets/projetoXIV.png'),
     description: "Um aplicativo de receitas desenvolvido em dupla para a disciplina de Programação para Dispositivos Móveis.",
@@ -137,7 +137,7 @@ const projects = [
     technologies: ["Figma", "HTML", "CSS", "JavaScript", "React Native", "Expo", "Firebase"]
   },
   {
-    id: 11,
+    id: 12,
     name: "Projeto Integrador 4° Semestre",
     image: require('../assets/projetoXII.png'),
     description: "Um sistema de coleta de dados de estações meteorológicas, onde a plataforma deve receber as informações da estação metereológica e em caso de emergência mostrar uma notificação alertando a população.",
@@ -149,7 +149,7 @@ const projects = [
     technologies: ["Figma", "Swagger", "NodeJS", "React", "TypeScript", "CSS", "Python", "Arduino", "Firebase", "GitHub Actions", "AWS"]
   },
   {
-    id: 12,
+    id: 13,
     name: "Rede Social com API do Gemini",
     image: require('../assets/projetoXIII.png'),
     description: "Desenvolvimento de uma rede social com a API do Gemini para uma Imersão Backend da Plataforma Alura.",
@@ -260,8 +260,8 @@ function Projects() {
   });
 
   return (
-    <div className="projects-container">
-      <div className="filters-container">
+    <div className="page-container">
+      {/* <div className="filters-container">
         <div className="filters">
           <h3>Filtros por Tags:</h3>
           <Select
@@ -278,15 +278,14 @@ function Projects() {
             className="select-filter"
           />
         </div>
-      </div>
-      <br />
-      <br />
+      </div> */}
+      {/* <h1 className='main-title'>meus projetos</h1> */}
       <div className="projects-grid">
         {filteredProjects.map((project) => (
           <div key={project.id} className="project-card">
             <img src={project.image} alt={project.name} />
-            <h4>{project.name}</h4>
-            <button onClick={() => openModal(project)} className="learn-more-button">Saiba Mais</button>
+            <h3>{project.name}</h3>
+            <button onClick={() => openModal(project)} className="learn-more-button">ver mais detalhes</button>
           </div>
         ))}
       </div>

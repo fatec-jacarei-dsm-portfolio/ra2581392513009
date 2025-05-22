@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center; 
     align-items: center;      
-    min-height: 100vh;          
+    min-height: 87vh;   
+    padding: 0px;       
 }
 
 .retangulo {
-    margin: 5px;
+    margin: 0px;
     background-color: white;
-    width: 60%;
-    padding: 0px 30px;
+    width: 75%;
+    padding: 0px 15px;
     border: 2px blue solid;
     box-shadow: 8px 8px 0px blue;
     display: flex;
@@ -18,8 +19,8 @@
 }
 
 .conteudo-texto{
-    width: 40%;
-    margin: 25px;
+    width: 50%;
+    margin: 30px;
     text-align: left;
 } 
 
@@ -28,7 +29,7 @@
 }
 
 .conteudo-img {
-    width: 50%;
+    width: 35%;
     margin: 25px;
 }
 
@@ -38,8 +39,25 @@
     max-width: 400px;      
 }
 
+.conteudo-texto a {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 20px;
+  text-decoration: underline;
+  color: #2c2c2a;
+}
+
+.conteudo-texto a:hover {
+  color: #0002cb;
+}
+
+.conteudo-texto a::after {
+  color: #2c2c2a;
+}
+
 @media (max-width: 1000px) {
     .retangulo {
+        margin: 15px 10px;
         flex-direction: column;   
         align-items: center;    
     }

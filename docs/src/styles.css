@@ -11,3 +11,21 @@ body {
     background: #fef4ff;
     color: #2c2c2a;
   }
+
+h3 {
+  font-size: 1em;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 1.75rem;
+  margin-bottom: 40px;
+  color: #333;
+  font-weight: 700;
+}

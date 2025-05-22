@@ -1,0 +1,193 @@
+.app {
+    text-align: center;
+    padding: 0% 7%;
+    min-height: 100vh;
+    /* font-family: 'Segoe UI', sans-serif; */
+}
+
+.learn-more-button {
+    padding: 10px 20px;
+    background-color: #3d3d3d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-top: 10px;
+    align-self: center; /* igual ao projects */
+    transition: background 0.3s;
+}
+
+.learn-more-button:hover {
+    background-color: #000000;
+}
+
+.certificates-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* igual ao projects */
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* margin: 10px; */
+    padding: 20px;
+    width: 240px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 275px; 
+    transition: transform 0.3s ease;
+}
+
+.certificate:hover {
+    transform: scale(1.05); /* igual ao projects */
+}
+
+.certificate-text {
+    flex: 1;
+    overflow: hidden;
+}
+
+.certificate-thumbnail {
+    width: 90%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 0 auto 10px auto;
+    display: block;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.certificate-pdf {
+    flex: 1;
+    width: 70%;
+    overflow: hidden;
+}
+
+.certificate-pdf {
+    width: 98%; /* Quase toda a largura do card */
+    height: 70px;
+    margin: 8px auto 10px auto; /* Espaço no topo e centralizado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.certificate-pdf .rpv-core__viewer {
+    width: 100% !important;
+    /* height: 120px !important; */
+}
+
+.certificate-name {
+    font-size: 1em;
+}
+
+.certificate-description {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.5); /* igual ao projects */
+    z-index: 1001;
+}
+
+.modal-link {
+    display: block;
+    text-align: center;
+    margin: 15px 0 0 0;
+    font-weight: bold;
+    color: #3d3d3d;
+    text-decoration: underline;
+}
+
+.modal > div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90%;
+    overflow-y: auto;
+    text-align: left;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-size: 0.8em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 999;
+}
+
+.close-button {
+    background: #2c2c2c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: background 0.3s;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.close-button:hover {
+    background: #000000;
+}
+
+.modal h3,
+.modal p {
+    text-align: center;
+}
+
+.modal-pdf {
+    max-height: 400px;
+    overflow: auto;
+    width: 100%;
+}
+
+.modal-pdf .rpv-core__viewer {
+    width: 100%;
+    height: 400px; /* Define a altura fixa para o contêiner do PDF */
+}
+
+@media screen and (max-width: 768px) {
+    .certificate {
+        width: 300px;
+    }
+
+    .modal > div {
+        width: 80%;
+        height: 90%;
+    }
+
+    .modal-pdf .rpv-core__viewer {
+        width: 400px;
+        height: 200px;
+    }
+}

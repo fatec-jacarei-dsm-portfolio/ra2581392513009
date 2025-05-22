@@ -1,0 +1,68 @@
+/* Container da página */
+.technology-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  /* font-family: 'Segoe UI', sans-serif; */
+  text-align: center;
+}
+
+/* Título principal */
+.technology-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #333;
+}
+
+/* Grade de categorias */
+.technology-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* Card de categoria */
+.category-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Lista de tecnologias */
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Cada item de tecnologia */
+.technology-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Ícone ou imagem */
+.technology-item svg,
+.technology-logo {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.technology-logo {
+  object-fit: contain;
+}
